@@ -1,11 +1,16 @@
 
+import Intro from "@/components/Intro/page"
+import SideBar from "@/components/SideBar/page";
 
 const page = () => {
   return (
-    <div>
-      <h1 className="text-white">Home</h1>
-    </div>
+   <div>
+
+    <Intro/>
+    <SideBar/>
+   </div>
   );
 };
 
-export default page;<h1>Page</h1>
+export default page;
+<h1>Page</h1>;
