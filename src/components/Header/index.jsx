@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import Logo from '@/assets/Icon/Logo';
-import Bell from "@/assets/Icon/Bell"
-import Plus from '@/assets/Icon/Plus';
+import Bell from "@/assets/Icon/Main-section-Icons/Bell"
+import Plus from '@/assets/Icon/Main-section-Icons/Plus';
 import Image from 'next/image';
 import profilePic from "@/assets/Images/profile.png";
+import SubMenu from './SubMenu';
 
 const Header = () => {
   return (
-    <header className="h-[70px] bg-[#161B22]">
+    <header id='header' className="h-[70px] bg-[#161B22] mb-[50px]">
       <div className="container">
         <nav className="py-[16px] flex items-center justify-between">
           <ul className="flex items-center gap-x-[16px]">
@@ -56,6 +57,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+        <SubMenu/>
       </div>
     </header>
   );
