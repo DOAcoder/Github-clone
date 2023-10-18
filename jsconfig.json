@@ -4,7 +4,9 @@
       "@/*": ["./src/*"],
       "@icon/*": ["./src/assets/Icon/*"],
       "@images/*": ["./src/assets/Images/*"],
-      "@api/*": ["./src/service/*"]
+      "@api/*": ["./src/service/*"],
+      "@ui/*": ["./src/components/UI/*"]
+
 
 
 

@@ -4,8 +4,8 @@
 
 const page = () => {
   return (
-   <div>
-    <h1>Home</h1>
+   <div className="py-[28px] px-[25px]">
+<h1>Home</h1>
    </div>
   );
 };

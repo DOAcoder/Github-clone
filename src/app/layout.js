@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
               <div>
                 <SideBar/>
               </div>
-              <div className='grow border-2'>
+              <div className='grow '>
                 {children}
               </div>
             </div>
